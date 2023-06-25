@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(Fondo.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 31vh;
+}
+
+.contenido{
+    background-color: rgb(245, 245, 212);
+    padding: 50px;
+    border-radius: 7px;
+    padding-bottom: 12vh;
+    padding-top: 3vh;
+}
+
+#confirmar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 24vh;
+}
+
+.conf{
+    background-color: rgb(101, 129, 255);
+    padding: 0px;
+    border-radius: 7px;
+    
+    
+}
+
+button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+button{
+    background-color: rgb(101, 129, 255);
+    padding: 8px;
+    border-radius: 7px;
+    font-weight: bolder;
+    transition: .5s;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.404);
+    border: none;
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 37vh;
+}
+
+.box{
+    background-color: rgb(245, 245, 212);
+    padding: 10px;
+    border-radius: 7px;
+    padding-bottom: 10vh;
+}
+
+#continuar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30vh;
+    background-color: rgb(101, 129, 255);
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: 80vh;
+    margin-right: 101vh;
+    transition: .5s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+    padding-left: 20px;
+    margin: 0 auto;
+    width: 20px;
+    content: center;
+    text-align: center;
+
+    
+}
+
+#continuar:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
